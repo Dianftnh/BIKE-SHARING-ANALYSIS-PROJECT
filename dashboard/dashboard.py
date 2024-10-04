@@ -87,8 +87,6 @@ byweather_df = create_byweather_df(main_df)
 byseason_df = create_byseason_df(main_df)
 rfm_df = create_rfm_df(main_df)
 
-# Cek apakah perubahan berhasil
-print(_df[['season', 'weathersit']].head())
 # Create dashboard
 st.header('Bike Sharing Dashboard :bar_chart:')
 
