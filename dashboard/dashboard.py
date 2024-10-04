@@ -87,22 +87,6 @@ byweather_df = create_byweather_df(main_df)
 byseason_df = create_byseason_df(main_df)
 rfm_df = create_rfm_df(main_df)
 
-# Mengubah nilai numerik menjadi label pada 'season'
-hour_df['season'] = hour_df['season'].replace({
-    1: 'Winter',
-    2: 'Spring',
-    3: 'Summer',
-    4: 'Fall'
-})
-
-# Mengubah nilai numerik menjadi label pada 'weathersit'
-hour_df['weathersit'] = hour_df['weathersit'].replace({
-    1: 'Cerah',
-    2: 'Berawan',
-    3: 'Mendung',
-    4: 'Hujan'
-})
-
 # Cek apakah perubahan berhasil
 print(_df[['season', 'weathersit']].head())
 # Create dashboard
