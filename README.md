@@ -61,5 +61,5 @@ streamlit run dashboard.py
 
 Or you can or you can directly visit this website
 
-#### [**Click here to view Bike Sharing Dashboard**] (https://bike-sharing-analysis-project-dianfatonah.streamlit.app/)
+#### [**Click here to view Bike Sharing Dashboard**] (https://bike-sharing-analysis-project-dianftnh.streamlit.app/)
 
